@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="#"><img title="AlisaBot-MD" src="https://telegra.ph/file/343e60521da533ea8a2d3.jpg/badge/a -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
+<a href="#"><img title="NovaBot-MD" src="https://telegra.ph/file/343e60521da533ea8a2d3.jpg/badge/a -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="#"><img title="The-LoliBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
@@ -28,7 +28,7 @@
 [![blog](https://img.shields.io/badge/Replit-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/SMjCcfuyWQE)
 
-[![Run on Repl.it](https://repl.it/badge/github/elrebelde21/NovaBot-MD)](https://repl.it/github/elrebelde21/NovaBot-MD) 
+[![Run on Repl.it](https://repl.it/badge/github/Andr1c8/NovaBot-MD)](https://repl.it/github/Andr1c8/NovaBot-MD) 
 
 ------------------ 
 
