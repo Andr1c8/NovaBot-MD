@@ -317,7 +317,7 @@ if (!conn.user.mensaje) {
 conn.sendMessage(m.chat, { text: `*Hola @${sender.split`@`[0]} 👋😄 Mi nombre es ${botname} Soy un bot de WhatsApp con multi funcione 👾, registrarte para poder usar mi comando 👌*
 
 *💫 MI INFO:*
-👑 *Mi creador es: wa.me/5492266466080*
+👑 *Mi creador es: wa.me/59173315260*
 👥 Tengo: ${Object.keys(global.db.data.users).length} usuario usandome puedo ser lenta :v
 *🤖 Estoy activa desde:* ${runtime(process.uptime())}
 *⚠️ PD:* No hagan spam del comando o te van baneado
@@ -329,7 +329,7 @@ ${prefix}reglas
 *Escribe: ${prefix}nuevo*
 
 *💫 ¿Quieres apoyar este proyecto para que siga actualizándose? puede apoyar con una donación voluntaria por nuestro Mercado pago:
-• Alias: elrebelde21
+• Alias: Andr1c8
 • CVU: 0000003100059201491917
 
 *⚡ subscriberte a nuestro canal del youtube*
@@ -513,7 +513,7 @@ try {
 let stdout = execSync('git pull' + (m.fromMe && q ? ' ' + q : ''))
 await m.reply(stdout.toString())
 } catch { 
-let updatee = execSync('git remote set-url origin https://github.com/elrebelde21/NovaBot-MD.git && git pull')
+let updatee = execSync('git remote set-url origin https://github.com/Andr1c8/NovaBot-MD.git && git pull')
 await m.reply(updatee.toString())}  
 break
 case 'reiniciar': case 'restart': { 
@@ -754,7 +754,7 @@ console.log(util.format(err))
 
 //--------------------[ REPORTE/ERRORS ]-----------------------     
 let e = String(err) 
-conn.sendMessage("5492266466080@s.whatsapp.net", { text: "Hola Creador/desarrollador, parece haber un error, por favor arreglarlo 🥲\n\n" + util.format(e), 
+conn.sendMessage("59173315260@s.whatsapp.net", { text: "Hola Creador/desarrollador, parece haber un error, por favor arreglarlo 🥲\n\n" + util.format(e), 
 contextInfo:{forwardingScore: 9999999, isForwarded: true }})
 process.on('uncaughtException', function (err) {
 console.log('Caught exception: ', err)})}}}}
