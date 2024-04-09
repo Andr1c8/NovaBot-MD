@@ -569,6 +569,12 @@ if (!global.db.data.chats[m.chat].audios) return
 let vn = './media/a.mp3'
 await conn.sendPresenceUpdate('recording', m.chat)
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": botname, "body": ``, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": md, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+if (budy.startsWith(`Hola`)) {
+const vn = './media/Hola.mp3'
+conn.sendAudio(m.chat, vn, m)} 
+if (budy.startsWith(`hola`)) {
+const vn = './media/Hola.mp3'
+conn.sendAudio(m.chat, vn, m)} 
 if (budy.startsWith(`Feliz cumpleaños`)) {
 const vn = './media/Feliz cumple.mp3'
 conn.sendAudio(m.chat, vn, m)} 
