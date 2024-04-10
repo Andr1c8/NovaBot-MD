@@ -363,19 +363,7 @@ m.reply(`${result4}`)
  db.data.users[m.sender].limit -= 2
 m.reply('2 ' + info.limit)}
 
-if (command == 'facebook' || command == 'fb') {
-if (!text) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://fb.watch/ncowLHMp-x/?mibextid=rS40aB7S9Ucbxw6v`)
-conn.fakeReply(m.chat, `${lenguaje.lengua.espere}`, '0@s.whatsapp.net', 'No haga spam')
-try {
-const Rres = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=${lolkeysapi}&url=${args[0]}`);
-const Jjson = await Rres.json();
-let VIDEO = Jjson.result[0];
-if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1];
-conn.sendMessage(m.chat, {video: {url: VIDEO}, caption: `${lenguaje.descargar.text16}`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-db.data.users[m.sender].limit -= 1
-m.reply('1 ' + info.limit)
-} catch {
-m.reply(info.error)}}
+
 
 if (command == 'instagram' || command == 'ig') {
 if (!text) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://www.instagram.com/p/CCoI4DQBGVQ/?igshid=YmMyMTA2M2Y=`)
@@ -391,7 +379,47 @@ m.reply('1 ' + info.limit)
 } catch {
 m.reply(info.error)}}
 
-if (command == 'igstalk') {
+if (command == 'facebook' || command == 'fb') { 
+const igeh = require(`../libs/scraper.js`) 
+if (!args[0] || !text) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://fb.watch/ncowLHMp-x/?mibextid=rS40aB7S9Ucbxw6v`)
+if (!args[0].match(/www.facebook.com|fb.watch/g)) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://fb.watch/ncowLHMp-x/?mibextid=rS40aB7S9Ucbxw6v`)
+m.react("📥") 
+conn.fakeReply(m.chat, `${lenguaje.lengua.espere}`, '0@s.whatsapp.net', 'No haga spam')
+try {
+const d2ata = await facebook.v1(args[0]);
+let r2es = '';
+if (d2ata.urls && d2ata.urls.length > 0) {
+r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}`;
+}
+conn.sendFile(m.chat, r2es, 'error.mp4', `${lenguaje.descargar.text16}`, m);
+} catch (err1) {
+try {
+const req = await igeh(args[0]);
+conn.sendMessage(m.chat, {video: {url: req.url_list}}, m);
+} catch (err1_2) {
+try {
+const Rres = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=${lolkeysapi}&url=${args[0]}`);
+const Jjson = await Rres.json();
+let VIDEO = Jjson.result[0];
+if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1];
+conn.sendFile(m.chat, VIDEO, 'error.mp4', `${lenguaje.descargar.text16}`, m);
+} catch (err2) {
+try {
+const ress = await fg.fbdl(args[0]);
+const urll = await ress.data[0].url;
+await conn.sendFile(m.chat, urll, 'error.mp4', `${lenguaje.descargar.text16}`, m);
+} catch (err3) {
+try {            
+const res3 = await fetch(`https://latam-api.vercel.app/api/facebookdl?apikey=nekosmic&q=${args[0]}`);
+const json = await res3.json();
+const url3 = await json.video;
+await conn.sendFile(m.chat, url3, 'error.mp4', `${lenguaje.descargar.text16}`, m);
+} catch (err6) {
+m.reply(info.error)
+console.log(e)
+}}}}}}if 
+
+(command == 'igstalk') {
 if (!args[0]) return m.reply(lenguaje.descargar.text17 + ` ${prefix + command} Emilia`)
 const fg = require('api-dylux')
 try {
