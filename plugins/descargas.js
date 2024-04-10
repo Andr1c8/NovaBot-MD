@@ -363,22 +363,10 @@ m.reply(`${result4}`)
  db.data.users[m.sender].limit -= 2
 m.reply('2 ' + info.limit)}
 
-
-
-if (command == 'instagram' || command == 'ig') {
-if (!text) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://www.instagram.com/p/CCoI4DQBGVQ/?igshid=YmMyMTA2M2Y=`)
-conn.fakeReply(m.chat, `${lenguaje.lengua.espere}`, '0@s.whatsapp.net', 'No haga spam')
-try {
-const human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`);
-const json = await human.json();
-const videoig = json.result;
-const shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-conn.sendMessage(m.chat, {video: {url: videoig}, caption: `🔗 *Url:* ${shortUrl1}`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-db.data.users[m.sender].limit -= 1
-m.reply('1 ' + info.limit)
-} catch {
-m.reply(info.error)}}
-
+async function descarga2(m, command, text, args, conn, lolkeysapi, isCreator) {
+if (global.db.data.users[m.sender].registered < true) return m.reply(info.registra)
+if (global.db.data.users[m.sender].limit < 1) return m.reply(info.endLimit)
+if (global.db.data.users[m.sender].banned) return
 if (command == 'facebook' || command == 'fb') { 
 const igeh = require(`../libs/scraper.js`) 
 if (!args[0] || !text) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://fb.watch/ncowLHMp-x/?mibextid=rS40aB7S9Ucbxw6v`)
@@ -417,7 +405,21 @@ await conn.sendFile(m.chat, url3, 'error.mp4', `${lenguaje.descargar.text16}`, m
 } catch (err6) {
 m.reply(info.error)
 console.log(e)
-}}}}}}if 
+}}}}}}
+
+if (command == 'instagram' || command == 'ig') {
+if (!text) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://www.instagram.com/p/CCoI4DQBGVQ/?igshid=YmMyMTA2M2Y=`)
+conn.fakeReply(m.chat, `${lenguaje.lengua.espere}`, '0@s.whatsapp.net', 'No haga spam')
+try {
+const human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`);
+const json = await human.json();
+const videoig = json.result;
+const shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
+conn.sendMessage(m.chat, {video: {url: videoig}, caption: `🔗 *Url:* ${shortUrl1}`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+db.data.users[m.sender].limit -= 1
+m.reply('1 ' + info.limit)
+} catch {
+m.reply(info.error)}}
 
 (command == 'igstalk') {
 if (!args[0]) return m.reply(lenguaje.descargar.text17 + ` ${prefix + command} Emilia`)
