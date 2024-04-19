@@ -363,20 +363,6 @@ m.reply(`${result4}`)
  db.data.users[m.sender].limit -= 2
 m.reply('2 ' + info.limit)}
 
-if (command == 'facebook' || command == 'fb') {
-if (!text) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://fb.watch/ncowLHMp-x/?mibextid=rS40aB7S9Ucbxw6v`)
-conn.fakeReply(m.chat, `${lenguaje.lengua.espere}`, '0@s.whatsapp.net', 'No haga spam')
-try {
-const Rres = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=${lolkeysapi}&url=${args[0]}`);
-const Jjson = await Rres.json();
-let VIDEO = Jjson.result[0];
-if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1];
-conn.sendMessage(m.chat, {video: {url: VIDEO}, caption: `${lenguaje.descargar.text16}`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
-db.data.users[m.sender].limit -= 1
-m.reply('1 ' + info.limit)
-} catch {
-m.reply(info.error)}}
-
 if (command == 'instagram' || command == 'ig') {
 if (!text) return m.reply(`${lenguaje.lengua.ejem}\n${prefix + command} https://www.instagram.com/p/CCoI4DQBGVQ/?igshid=YmMyMTA2M2Y=`)
 conn.fakeReply(m.chat, `${lenguaje.lengua.espere}`, '0@s.whatsapp.net', 'No haga spam')
