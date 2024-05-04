@@ -11,8 +11,8 @@ global.premium = []
 global.blockList = []  
 
 //---------[ NOMBRE/INFO ]---------
-global.botname = "𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃"
-global.wm = 'Ｎ Ｏ Ｖ Ａ Ｂ Ｏ Ｔ- Ｍ Ｄ 💫'
+global.botname = "𝙰𝙻𝙸𝚂𝙰𝙱𝙾𝚃-𝙼𝙳"
+global.wm = '𝘈 𝘓 𝘐 𝘚 𝘈 𝘉 𝘖 𝘛 - 𝘔 𝘋 💫'
 global.vs = '1.0.7'
 
 //---------[ FECHA/IDIOMAS ]---------
@@ -64,7 +64,7 @@ global.APIKeys = {
 };
  
 //---------[ STICKERS ]---------
-global.packname = "𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃"
+global.packname = "𝙰𝙻𝙸𝚂𝙰𝙱𝙾𝚃-𝙼𝙳"
 global.author = `${vs}`
  
 //---------[ IMAGEN ]---------
