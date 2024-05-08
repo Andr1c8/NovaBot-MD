@@ -6,7 +6,9 @@
 </p>
 <p align="center">
 <a href="#"><img title="The-LoliBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
-<a href="#"><img title="The-LoliBot-MD" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
+<a href="#"><img title="The-LoliBot-MD" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?
+https://ibb.co/kQDS9wS -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge
+colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
 <div align="center">
 <a 
     
