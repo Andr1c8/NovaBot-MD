@@ -12,7 +12,7 @@ global.blockList = []
 
 //---------[ NOMBRE/INFO ]---------
 global.botname = "𝙰𝙻𝙸𝚂𝙰𝙱𝙾𝚃-𝙼𝙳"
-global.wm = '𝘈𝘓𝘐𝘚𝘈𝘉𝘖𝘛-𝘔𝘋🌸'
+global.wm = '🇦 🇱 🇮 🇸 🇦 🇧 🇴 🇹 -🇲 🇩 🌸'
 global.vs = '1.0.7'
 
 //---------[ FECHA/IDIOMAS ]---------
