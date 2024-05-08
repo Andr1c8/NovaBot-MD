@@ -20,7 +20,7 @@ colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
 
 ### Quiere probar la funciones del bot, antes de instalar, probar el bot aquí
 
-[![Grupos](https://img.shields.io/badge/Grupos-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em4Byf4w5VgHObPvZQlfnM) 
+[![Grupos](https://img.shields.io/badge/Grupos-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/KixLH7hCmQm0QKW5huB8gn) 
 
 ------------------ 
 
