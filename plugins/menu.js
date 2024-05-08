@@ -19,10 +19,10 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 const date = moment.tz('America/Bogota').format('DD/MM/YYYY')
 const time = moment.tz('America/Argentina/Buenos_Aires').format('LT')
 let wa = m.key.id.length > 21 ? 'Android' : m.key.id.substring(0, 2) == '3A' ? 'IOS' : 'whatsapp web'
-m.react('🙌') 
+m.react('📚') 
 let menu = `╔══════ ≪ •❈• ≫ ══════╗
 ║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-║${lenguaje['smsWel']()} @${sender.split("@")[0]} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''} 👋🏻
+║${lenguaje['smsWel']()} @${sender.split("@")[0]} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''} 🌸
 ║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 ║${lenguaje.menu.text} [ ${prefix} ]
 ║${lenguaje.menu.text2} ${date}
