@@ -418,8 +418,8 @@ welc = await getBuffer(ppuser)
 leave = await getBuffer(ppuser)
 if (anu.action == 'add') {
 const buffer = await getBuffer(ppuser)
-const time = moment.tz('America/Bogota').format('HH:mm:ss')
-const date = moment.tz('America/Bogota').format('DD/MM/YYYY')
+const time = moment.tz('America/Bolivia').format('HH:mm:ss')
+const date = moment.tz('America/Bolivia').format('DD/MM/YYYY')
 let name = num
 const miembros = metadata.participants.length
 let vn = './media/Bienvenido.mp3'
