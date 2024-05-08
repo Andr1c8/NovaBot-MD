@@ -5,8 +5,8 @@
 <a href="#"><img title="AlisaBot-MD" src="https://telegra.ph/file/ec86c0450a17d569e98c0.jpg/badge/a -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="#"><img title="The-LoliBot-MD" src="https://telegra.ph/file/f8d7283030972bfe259ef.jpg/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
-<a href="#"><img title="The-LoliBot-MD" src="https://telegra.ph/file/55abc5c52399dea4229df.jpg/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?
+<a href="#"><img title="AlisaBot-MD" src="https://telegra.ph/file/f8d7283030972bfe259ef.jpg/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
+<a href="#"><img title="AlisaBot-MD" src="https://telegra.ph/file/55abc5c52399dea4229df.jpg/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?
 colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
 <div align="center">
 <a 
