@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="#"><img title="AlisaBot-MD" src="https://t.me/c/2042993852/3 -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
+<a href="#"><img title="AlisaBot-MD" src="https://telegra.ph/AlisaBot-MD-05-08 -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="#"><img title="The-LoliBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
