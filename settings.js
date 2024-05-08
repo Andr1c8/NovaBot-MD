@@ -80,7 +80,7 @@ global.tiktok = ''
 global.faceb = ''
 
 global.nna = 'https://chat.whatsapp.com/KixLH7hCmQm0QKW5huB8gn' //Update 
-global.nn = ''
+global.nn = 'https://whatsapp.com/channel/0029VaUe6NBAzNbrOnQRzi3o' //canal
 global.nn2 = ''
 global.nn3 = ''
 global.nn4 = ''
