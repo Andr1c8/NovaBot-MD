@@ -1,4 +1,4 @@
-//Bot echo desde 0 por favor deja crédito rata
+//Bot echo desde 0 por favor deja crédito
 const fs = require('fs') 
 const path = require('path')
 const chalk = require('chalk') 
@@ -16,7 +16,7 @@ global.wm = '𝘈𝘓𝘐𝘚𝘈𝘉𝘖𝘛-𝘔𝘋🌸'
 global.vs = '1.0.7'
 
 //---------[ FECHA/IDIOMAS ]---------
-global.place = 'America/Bogota' // Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
+global.place = 'America/Bolivia' // Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
 global.lenguaje = es //Predeterminado en idioma Español 
 
 //---------[ APIS GLOBAL ]---------
@@ -79,16 +79,16 @@ global.yt = ''
 global.tiktok = ''
 global.faceb = ''
 
-global.nna = '' //Update 
-global.nn = '' //LoliBot
-global.nn2 = '' //Loli & Nova
-global.nn3 = '' //Grupo de Colaboracion
-global.nn4 = '' // Grupo COL 2
-global.nn5 = '' //Grupo COL 3
-global.nn6 = '' //test
-global.nn7 = '' //Grupo ayuda sobre el bot
-global.nn8 = '' //enlace lolibot
-global.multi = ''//Grupo COL 4
+global.nna = 'https://chat.whatsapp.com/KixLH7hCmQm0QKW5huB8gn' //Update 
+global.nn = ''
+global.nn2 = ''
+global.nn3 = ''
+global.nn4 = ''
+global.nn5 = ''
+global.nn6 = ''
+global.nn7 = '' 
+global.nn8 = '' 
+global.multi = ''
 global.nna2 = ''
 
 //---------[ INFO ]--------- 
