@@ -43,7 +43,7 @@ conn.sendMessage(m.chat, {image: imagen1, caption: stateRun, contextInfo:{ menti
 
 if (command == 'owner' || command == 'creador' || command == 'contacto') {
 let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;PROPIETARIO/OWNER DEL BOT 👑;;;\nFN:OWNER\nORG:PROPIETARIO/OWNER DEL BOT 👑\nTITLE:\nitem1.TEL;waid=59173315260:+591 73315260\nitem1.X-ABLabel:PROPIETARIO/OWNER DEL BOT👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:PROPIETARIO/OWNER DEL BOT 👑\nEND:VCARD`
-let a = await conn.sendMessage(m.chat, { contacts: { displayName: 'ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ 👑', contacts: [{ vcard }] }}, {quoted: m})
+let a = await conn.sendMessage(m.chat, { contacts: { displayName: 'AlisaBot-ᴍᴅ 👑', contacts: [{ vcard }] }}, {quoted: m})
 await conn.sendMessage(m.chat, { text : `${lenguaje['smsWel']()} @${sender.split("@")[0]}, ${lenguaje.info.text12}`, mentions: [sender]}, { quoted: a, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 }
 
@@ -101,7 +101,7 @@ conn.sendMessage(m.chat, {text: teks + teks2 + teks1, mentions:[m.sender]}, {quo
 
 if (command == 'sc') {
 let who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
-let res = await fetch('https://api.github.com/repos/elrebelde21/NovaBot-MD')
+let res = await fetch('https://api.github.com/repos/Andr1c8/NovaBot-MD')
 let json = await res.json()
 let txt = `			 *乂 B O T  -  S C R I P T 乂*\n\n`
 txt += `◦  *Nombre* : ${json.name}\n`
