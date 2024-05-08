@@ -76,7 +76,7 @@ db.data.users[m.sender].limit -= 2
 m.reply('2 ' + info.limit)}
 
 if (command == 'tetas') {
-const resError = (await axios.get(`https://raw.githubusercontent.com/elrebelde21/NovaBot-MD/master/src/nsfw/tetas.json`)).data;
+const resError = (await axios.get(`https://raw.githubusercontent.com/Andr1c8/NovaBot-MD/master/src/nsfw/tetas.json`)).data;
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux`).data;
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())];
 conn.sendMessage(m.chat, {image: {url: res}, caption: `_${command}_`.trim()}, {quoted: m})
@@ -84,7 +84,7 @@ db.data.users[m.sender].limit -= 1
 m.reply('1 ' + info.limit)}
     
 if (command == 'pechos') {
-const res = (await axios.get(`https://raw.githubusercontent.com/elrebelde21/NovaBot-MD/master/src/nsfw/pechos.json`)).data;
+const res = (await axios.get(`https://raw.githubusercontent.com/Andr1c8/NovaBot-MD/master/src/nsfw/pechos.json`)).data;
 const url = await res[Math.floor(res.length * Math.random())];
 conn.sendMessage(m.chat, {image: {url: url}, caption: `_${command}_`.trim()}, {quoted: m})
 db.data.users[m.sender].limit -= 1
