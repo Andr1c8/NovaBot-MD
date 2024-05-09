@@ -155,6 +155,20 @@ global.db.data.users[m.sender].robs = new Date * 1;
  } catch {
 m.reply(lenguaje.rpg.rob7)}}
 
+if (command == 'crime' || command == 'crime2') {
+const date = global.db.data.users[m.sender].lastmiming + 3600000;
+if (new Date - global.db.data.users[m.sender].lastmiming < 3600000) return m.reply(`*${lenguaje.rpg.text9} ${msToTime(date - new Date())} ${lenguaje.rpg.text10}*`)
+let crime = `${pickRandom(['Robaste un Banco 🏦 y Obtuviste', 'Negociaste con el jefe de la mafia y Obtuviste :', 'tracionaste a tu amigo y obtuviste :', 'Los mafiosos te han pagado :', 'Le has robado al Administrador del Grupo', 'lograste ganar un boleto de lotería y obtuviste :', 'lograste robar a un famoso y obtuviste :'];
+global.robmal = ['La mafia te busca por no pagar tú deuda, perdiste', 'tu mejor amigo ti traicionó, perdiste', 'lograron asaltar tú casa, perdiste'])}` 
+//const diamond = Math.floor(Math.random() * 60)
+const money = Math.floor(Math.random() * 2500)
+//global.db.data.users[m.sender].limit += diamond
+global.db.data.users[m.sender].money += money
+m.reply(`${crime}\n💎 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄: ${diamond}\n🪙 𝐂𝐎𝐈𝐍𝐒: ${money}`)
+m.react('💎') 
+global.db.data.users[m.sender].lastmiming = new Date * 1;
+}
+
 if (command == 'buy' || command == 'buyall') {
 let count = command.replace(/^buy/i, '');
 count = count ? /all/i.test(count) ? Math.floor(global.db.data.users[m.sender].exp / 450) : parseInt(count) : args[0] ? parseInt(args[0]) : 1;
