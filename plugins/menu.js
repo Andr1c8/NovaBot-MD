@@ -16,7 +16,7 @@ if (command == 'menu' || command == 'menucompleto') {
 let user = global.db.data.users[m.sender]
 let totalreg = Object.keys(global.db.data.users).length
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
-const date = moment.tz('America/Bolivia').format('DD/MM/YYYY')
+const date = moment.tz('America/Bogota').format('DD/MM/YYYY')
 const time = moment.tz('America/Argentina/Buenos_Aires').format('LT')
 let wa = m.key.id.length > 21 ? 'Android' : m.key.id.substring(0, 2) == '3A' ? 'IOS' : 'whatsapp web'
 m.react('📚') 
