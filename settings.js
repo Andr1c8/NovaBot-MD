@@ -16,7 +16,7 @@ global.wm = '🇦 🇱 🇮 🇸 🇦 🇧 🇴 🇹 -🇲 🇩 🌸'
 global.vs = '1.0.7'
 
 //---------[ FECHA/IDIOMAS ]---------
-global.place = 'America/Bogota// Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
+global.place = 'America/Bolivia// Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
 global.lenguaje = es //Predeterminado en idioma Español 
 
 //---------[ APIS GLOBAL ]---------
