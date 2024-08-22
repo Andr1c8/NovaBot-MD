@@ -5,9 +5,9 @@ const chalk = require('chalk')
 const { en, es, ar, id, pt, rs} = require('./libs/idiomas/total-idiomas.js') 
 
 //---------[ PROPIETADO/OWNER ]---------
-global.owner = [["59173315260", "Owner", true], ["59178232529"], ["593985395287"]]
-global.mods = []
-global.premium = []  
+global.owner = [["59173315260", "Owner", true], ["59178232529"], ["593985395287"]["52 985 129 8874"]]
+global.mods = ["52 985 129 8874"]
+global.premium = [+52 985 129 8874]  
 global.blockList = []  
 
 //---------[ NOMBRE/INFO ]---------
